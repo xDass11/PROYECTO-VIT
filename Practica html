@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+     <title>holamundo</title>
+  </head>  
+  <body>
+		<h2 style="color:lightsteelblue"> hola, Mundo</h2>
+		<main>
+		  <h3>Imagenes de Hola, mundo</h3>
+		  <!--TODO: Agregar enlace a imagenes de hola, Mundo-->
+		  <p>Haz click aqui para ver mas <a href="https://atom-editor.cc/" target="_blank" rel="noopener noreferrer"> imagen de hola, Mundo </a></p>
+
+		  <a href = "https://es.wikipedia.org/wiki/Hola_mundo" target="_blank" rel="noopener noreferrer"> <img src="https://www.azulweb.net/wp-content/uploads/2020/10/hola_mundo-676x450-1.jpg" alt="hello world"> </a>
+		  <hr>
+		  <h3> lista hola mundo</h3>
+		<div>
+		  <p>Cosas que <em>amamos</em> de hola mundo:</p>
+		  <ul>
+			<li>El mundo</li>
+			<li>Hello</li>
+			<li>World</li>
+		  </ul>
+		  <img src="imagenes/imagen.jpeg"<br>
+
+		  <p> Cosas que <strong>odiamos</strong></p>
+
+		  <ol>
+			<li>no internet</li>
+			<li>dinosaurios</li>
+			<li>rawwww</li>
+		  </ol>
+		</div>
+		  <img src="imagenes/images.png"<br>
+
+		  <form action="/enviar respuestas">
+			<label for="interior"><input id="interior" type="radio" name="interior-exterior">interior</label>
+			<label for="exterior"><input id="exterior" type="radio" name="interior-exterior">exterior</label>
+		  </form>
+		  <br>
+
+		  <!--casillas de verificacion-->
+		  <label for="Rapido"><input id="Rapido" type="checkbox" value="Rapido" name="personalidad" checked>Rapido</label>
+		  <label for="Facil"><input id="Facil" type="checkbox" value="Facil" name="personalidad" checked>Facil</label>
+		  <label for="Sencillo"><input id="Sencillo"type="checkbox" value="Sencillo" name="personalidad" checked>Sencillo</label>
+		  
+		  <br>
+		    
+		  <form action="/enviar-respuestas">
+			<input type="text" placeholder="lo que quieras" required>
+			<button type="submit">Enviar</button>
+		  </form>
+		</main>
+          <footer>
+               <p><small>derechos de autor - <a href="https://academia.holamundo.io/pages/new-landing">Hola mundo</a></small></p>
+          </footer>
+  </body>
+</html>
